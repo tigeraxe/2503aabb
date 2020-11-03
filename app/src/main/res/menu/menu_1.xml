@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/set_psw"
+            android:title="密码">
+            <menu>
+                <item
+                    android:id="@+id/text_psw"
+                    android:title="文字密码"
+                    android:icon="@drawable/psw_icon"/>
+                <item
+                    android:id="@+id/pic_psw"
+                    android:title="图形密码"
+                    android:icon="@drawable/img_icon"/>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/set"
+            android:title="记账选项">
+            <menu>
+                <item
+                    android:id="@+id/set_category"
+                    android:title="分类"
+                    android:icon="@drawable/class_icon"/>
+            </menu>
+        </item>
+    </group>
+</menu>
